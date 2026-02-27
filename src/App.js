@@ -5,6 +5,8 @@ import Profile from './components/ContextAPI/Profile';
 import About from './components/ContextAPI/About';
 import ParentMemo from './components/REactMemo/ParentMemo';
 import Todo from './components/ToDoLis/Todo';
+import Memo from './components/UseMemo/Memo';
+import Parent from './components/USECALLBACK/Parent';
 
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
       <Profile user={user}/>
       <About user={user}/>
       <ParentMemo/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      {/* <Memo/> */}
+      <Parent/>
 
     </div>
   );
